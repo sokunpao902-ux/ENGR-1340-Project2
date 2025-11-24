@@ -1,4 +1,4 @@
-﻿# ENGR-1340-Project2
+# ENGR-1340-Project2
 
 Team 13
 
