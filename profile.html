@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" href="images/labcoat.png">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
 <!-- NAVBAR -->
@@ -27,35 +27,34 @@
     </nav>
 </header>
 
-<!-- Sign up section-->
-<section class="signup-section" tabindex="0">
-    <h1 class="title" tabindex="0">Sign up</h1>
-    <div class="container" tabindex="0">
-        <label for="email" tabindex="0"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email tabindex="0"" required>
-
-        <label for="psw" tabindex="0"><b>Password</b></label>
-        <input type="password" tabindex="0" placeholder="Enter Password" name="psw" required>
-
-        <label for="psw-repeat" tabindex="0"><b>Confirm Password</b></label>
-        <input type="password" tabindex="0" placeholder="Confirm Password" name="psw-confirm" class="last-enter" required>
-
-        <div class="rem-link" tabindex="0">
-            <label tabindex="0">
-                <input tabindex="0" type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
-            </label>
-            <a tabindex="0" class="blue-btn" href="">Forgot password?</a>
+<!-- Profile Section-->
+<section class="profile-section">
+    <div class="profile-container">
+        <div class="profile-top">
+            <div class="row">
+                <img src="images/profile.png" class="profile-image">
+                <ol>
+                    <h1>Ben Tennyson</h1>
+                    <h2 class="gray unbold">benloveschillifries@gmail.com</h2>
+                </ol>
+            </div>
+            <button class="edit">Edit</button>
         </div>
+        <div class="profile-info">
+            <label for="Full Name" tabindex="0"><b>Full Name</b></label>
+            <input type="text" placeholder="Full name" name="Full Name" tableindex="0" required>
 
+            <label for="Gender" tabindex="0"><b>Gender</b></label>
+            <input type="text" tabindex="0" placeholder="Gender" name="Gender" required>
 
-        <div class="clearfix" tabindex="0">
-            <a href="profile.html"><button tabindex="0" type="submit" class="login-btn">Sign up</button></a>
+            <label for="Country" tabindex="0"><b>Country</b></label>
+            <input type="text" tabindex="0" placeholder="England" name="Country" required>
+
+            <label for="Description" tabindex="0"><b>Description</b></label>
+            <textarea class="description" name="Description" tabindex="0" placeholder="Ben 10 is about a 10-year-old boy named Ben Tennyson who discovers a mysterious device called the Omnitrix, which attaches to his wrist and allows him to transform into 10 different alien heroes, each with unique abilities. He uses these powers to fight evil, often while traveling with his cousin Gwen and Grandpa Max. While Ben fights for good, he sometimes uses his powers for kid mischief."></textarea>
         </div>
-        <div tabindex="0">Already have an account? &nbsp;<a tabindex="0" href="signin.html" class="blue-btn"> Log in</a></div>
     </div>
 </section>
-<hr>
-
 <!-- Footer Section-->
 
 <footer class="footer" tabindex="0">

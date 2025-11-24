@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+html, body {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ol {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+
+
+
+/* general classes */
+.unbold {
+    font-weight: normal;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.small-logo {
+    height: 25px;
+    width: 25px;
+}
+
+.gray {
+    color: gray;
+}
+/* NAVBAR */
+.navbar {
+    min-width:100%;
+    display: flex;
+    padding: 15px 15px;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.nav-links a {
+    margin: 0 6px;
+    text-decoration: none;
+}
+
+.signin {
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #08F;
+    color: white;
+}
+
+.register {
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* profile section */
+.profile-section {
+    margin: 50px 30px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.profile-top {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.profile-section button {
+  background: #08F;
+  color: white;
+  width: 100px;
+  height: 50px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid white;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 5%;
+}
+
+
+.profile-section button:hover {
+  opacity:1;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1,1fr);
+}
+
+.profile-section input[type=text], .profile-section input[type=password], .profile-section textarea{
+  width: 550px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* Add a background color when the inputs get focus */
+.profile-section  input[type=text]:focus, .profile-section input[type=password]:focus, .profile-section textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+.description {
+    height: 200px;
+}
+/* Footer bar */
+
+.footer {
+    background-color: white;
+    height: 400px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-left: 50px;
+    gap: 200px;
+}
+
+
+.gap-bottom {
+    padding-bottom: 15px;
+}
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
