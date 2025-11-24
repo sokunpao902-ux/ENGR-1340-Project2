@@ -3,270 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Team Project</title>
-
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            line-height: 1.7;
-            background-color: #f7f7f7;
-            color: #333;
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-
-        header {
-            text-align: center;
-            border-bottom: 2px solid #005a9c;
-            padding-bottom: 15px;
-        }
-
-        h1 {
-            color: #005a9c;
-        }
-
-        h2 {
-            color: #005a9c;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-
-        h3 {
-            color: #333;
-            margin-top: 30px;
-        }
-
-        ul, ol {
-            padding-left: 25px;
-        }
-
-        li {
-            margin-bottom: 12px;
-        }
-
-        p {
-            font-size: 1.05em;
-        }
-        /* This class is for the main student task */
-        .task-box {
-            background-color: #fffbe6;
-            border: 1px solid #ffde8a;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        /* This class is for the instructions section */
-        .instructions {
-            background-color: #f4f8ff;
-            border: 1px solid #c9deff;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-
-        code {
-            font-family: "Courier New", Courier, monospace;
-            background-color: #eef;
-            padding: 3px 5px;
-            border-radius: 4px;
-            font-size: 0.95em;
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-top: 40px;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-        }
-    </style>
+    <title>Home</title>
+    <link rel="icon" href="images/labcoat.png">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+<!-- NAVBAR -->
+<header class="navbar" tabindex="0">
+    <div class="nav-left" tabindex="0">
+        <img src="images\labcoat.png" alt="TechLabs Logo" class="logo" tabindex="0">
+        <span class="brand" tabindex="0">Tech Labs</span>
+    </div>
 
-    <header>
-        <h1>Tech Labs</h1>
-    </header>
+    <nav class="nav-links" tabindex="0">
+        <a href="index.html">Home</a>
+        <a href="task.html">Discover</a>
+        <a href="community.html">Community</a>
+        <a tabindex="0">Courses</a>
+        <a tabindex="0">Tools</a>
+        <a tabindex="0">Support</a>
+        <a href="signin.html"class="signin" tabindex="0">Sign In</a>
+        <a href="register.html" class="register" tabindex="0">Register</a>
+    </nav>
+</header>
 
-    <main>
+<!-- HERO SECTION -->
+<section class="hero" tabindex="0">
+    <div class="hero-content" tabindex="0">
+        <h1 tabindex="0">Tech Labs</h1>
+        <p class="subtitle" tabindex="0">The future to learning</p>
+        <button class="hero-btn" tabindex="0">Find out more</button>
+    </div>
+</section>
 
-        <section id="description">
-            <h2>Project Description</h2>
-            <p> Tech Labs is a website designed to help Students learn, grow, and connect with others. Additionally, it allows companies to find potential employees that fit the skills they need.
-                Some of its features include: <br>
-                <br>- Micro-Tasks: a way for students to get real experience and get paid a fee. For companies, it allows them to get simple tasks done and make more people familiar with work in the company. <br>
-                <br>- Community: a way for students to interact with fellow students as well as companies. Companies get to reach out to any student they think would fit their company.<br>
-                <br>- Courses: Video tutorials as well as live tutoring to help students learn skills they need. <br>
-                <br>- Success tools: Tools that allows companies to filter through data to find the best possible candidate. For students, it allows them to filter through data to find companies that are likely to hire them.
+<!-- ABOUT SECTION -->
+<section class="about" tabindex="0">
+    <div class="about-content" tabindex="0">
+        <p class="header" tabindex="0">About</p>
+        <p class="title" tabindex="0">What it offers</p>
+        <ol class="about-container" tabindex="0">
+            <li class="card" tabindex="0">
+                <ol class="row" tabindex="0">
+                    <img src="images\tasks.png" class="logo" alt="task logo" tabindex="0">
+                    <h2 class="unbold" tabindex="0">Micro-Tasks</h2>
+                </ol>
+                <br>
+                <p tabindex="0">A way for students to get real experience and get paid a fee. 
+                    For companies, it allows them to get simple tasks done and make more people 
+                    familiar with work in the company.</p>
+            </li>
+            <li class="card" tabindex="0">
+                <ol class="row" tabindex="0">
+                    <img src="images\group.png" class="logo" alt="group logo" tabindex="0">
+                    <h2 class="unbold" tabindex="0">Find People<y/h2>
+                </ol>
+                <br>
+                <p tabindex="0">A way for students to interact with fellow students as well as companies. 
+                    Companies get to reach out to any student they think would fit their company.</p>
+            </li>
+            <li class="card" tabindex="0">
+                <ol class="row" tabindex="0">
+                    <img src="images\courses.png" class="logo" alt="course logo" tabindex="0">
+                    <h2 class="unbold" tabindex="0">Courses</h2>
+                </ol>
+                <br>
+                <p tabindex="0">Video tutorials as well as live tutoring to help students learn skills they need. 
+                    There are both free and premium courses to choose from.</p>
+            </li>
+            <li class="card" tabindex="0">
+                <ol class="row" tabindex="0">
+                    <img src="images\tools.png" class="logo" alt="tools logo" tabindex="0">
+                    <h2 class="unbold" tabindex="0">Success Tools</h2>
+                </ol>
+                <br>
+                <p tabindex="0">Tools that allows companies to filter through data to find the best possible candidate. 
+                    For students, it allows them to filter through data to find companies that are likely to hire them.</p>
+            </li>
+        </ol>
+    </div>
+</section>
 
-             </p>
-    
-        </section>
+<!-- Footer Section-->
 
-        <section id="team" class="task-box">
-            <h2>👋 👋 👋 👋 👋 Team Members (Your Task is Here!)👋 👋 👋 👋 👋 </h2>
-            <p><strong>Your Goal:</strong> Add your name to this list using the Fork & Pull Request workflow described in the instructions below.</p>
-            <ul>
-                <li>Sokun Pao (sokunpao902-ux)</li>
-                <li>Anshul Nutheti (AnshulNutheti1)</li>
-                <li>Marcus Green(jhonsimos)</li>
-                <li>Saad alazemi ()</li>
-                <li>Salim M Q A Alazmi ()</li>
-
-            </ul>
-        </section>
-
-        <section id="github-guide" class="instructions">
-            <h2>📚 GitHub Collaboration Instructions</h2>
-            <p>This guide explains how to collaborate on our team project. We will have **one "Repo Owner"** who sets up the project and **all other "Contributors"** who will "fork" the project to add their changes.</p>
-
-            <hr>
-
-            <h3>Part 1: For the "Repo Owner" (One student per team)</h3>
-            <p>Your job is to create the main "upstream" repository that your teammates will contribute to.</p>
-            <ol>
-                <li>
-                    <strong>Create the Repository:</strong>
-                    <ul>
-                        <li>Go to GitHub and log in. Click the <strong>+</strong> icon and select <strong>New repository</strong>.</li>
-                        <li><strong>Repository name:</strong> Give it a clear name (e.g., <code>engr1340-team-project</code>).</li>
-                        <li><strong>IMPORTANT:</strong> Select <strong>Public</strong> so your teammates can find and fork it.</li>
-                        <li>Initialize with a README. And you will edit this file later.</li>
-                        <li>Click <strong>Create repository</strong>.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Upload this `index.html` File:</strong>
-                    <ul>
-                        <li>On your new repository's main page, open the README file and click the "edit this file".</li>
-                        <li>Type your project name and all your teammates' name here. Then Click <strong>Commit changes</strong> to save.</li>
-                        <li>On your new repository's main page, click the <strong>uploading an existing file</strong> link.</li>
-                        <li>Drag and drop this <code>index.html</code> file onto the page.</li>
-                        <li>In the "Commit changes" box, type a message like <code>Add initial index.html template</code>.</li>
-                        <li>Click <strong>Commit changes</strong>.</li>
-
-                    </ul>
-                </li>
-                <li>
-                    <strong>Share the Link:</strong>
-                    <ul>
-                        <li>Copy the URL of your repository (e.g., <code>https://github.com/YourUsername/engr1340-team-project</code>).</li>
-                        <li>Share this link with your teammates. Your setup work is done!</li>
-                    </ul>
-                </li>
+<footer class="footer" tabindex="0">
+    <div class="footer-content" tabindex="0">
+        <ol class="footer-card" tabindex="0">
+            <img src="images/labcoat.png" class="logo" tabindex="0">
+            <ol class="row" tabindex="0">
+                <a href="https://x.com"><img src="images/twitter.png" class="small-logo" alt="twitter logo" tabindex="0"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" class="small-logo" alt="instagram logo" tabindex="0"></a>
+                <a href="https://youtube.com"><img src="images/youtube.png" class="small-logo" alt="youtube logo" tabindex="0"></a>
+                <a href="https://linkedin.com"><img src="images/linkedin.png" class="small-logo" alt="linkedin logo" tabindex="0"></a>
             </ol>
-
-            <h3>Part 2: For "Contributors" (All other team members)</h3>
-            <p>Your job is to make a personal copy (a "fork") of the main repository, make your changes, and then propose those changes back using a "Pull Request."</p>
-            <ol>
-                <li>
-                    <strong>Fork the Repository:</strong>
-                    <ul>
-                        <li>Go to the GitHub repository URL your "Repo Owner" shared.</li>
-                        <li>In the top-right corner, click the <strong>Fork</strong> button. This creates a copy under *your* GitHub account.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Clone Your Fork:</strong>
-                    <ul>
-                        <li>Go to the page for <strong>your fork</strong> (the URL will be <code>github.com/YourUsername/...</code>).</li>
-                        <li>Click the green <strong>&lt; &gt; Code</strong> button and copy the <strong>HTTPS</strong> URL.</li>
-                        <li>In your computer's terminal (right click and "open in terminal"), run: <code>git clone [PASTE_THE_URL_YOU_COPIED]</code></li>
-                        <li><code>cd</code> into the new project folder: <code>cd [REPOSITORY_NAME]</code></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <strong>Link to the Upstream (Team's) Repository:</strong>
-                    <ul>
-                        <li>Your local repo is currently only connected to <em>your fork</em> (named <code>origin</code>). You need to add a connection to the <em>team leader's</em> original repository (which we call <code>upstream</code>). This is a one-time setup step.</li>
-                        <li>
-                            Run this command, replacing <code>[TEAM_LEADER_URL]</code> with the URL of their repository (the one you forked from):
-                            <br><code>git remote add upstream [TEAM_LEADER_URL]</code>
-                        </li>
-                        <li>Verify that you have two remotes (<code>origin</code> pointing to your fork and <code>upstream</code> pointing to the leader's repo) by running: <br><code>git remote -v</code></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <strong>Sync with Upstream Before You Work:</strong>
-                    <ul>
-                        <li><strong>IMPORTANT:</strong> Before you create a new branch, always get the latest changes from the team's main project. This prevents merge conflicts.</li>
-                        <li>Run this command to pull updates from the <code>upstream</code> (team leader's) <code>main</code> branch into your local <code>main</code> branch: <br><code>git pull upstream main</code></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <strong>Create a New Branch:</strong>
-                    <ul>
-                        <li>Now that your local <code>main</code> branch is up-to-date, create a new branch for your edits. <strong>Never</strong> work directly on <code>main</code>.</li>
-                        <li>Run: <code>git checkout -b add-my-name</code> (You can name the branch anything, like <code>feature/my-name</code>).</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Edit the File (This is the Task!):</strong>
-                    <ul>
-                        <li>Open this <code>index.html</code> file in your code editor.</li>
-                        <li>Find the "Team Members" section above and add your name to the list.</li>
-                        <li>Save the file.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Commit and Push Your Changes:</strong>
-                    <ul>
-                        <li>Stage your change: <code>git add index.html</code></li>
-                        <li>Commit your change: <code>git commit -m "Add [Your Name] to team list"</code></li>
-                        <li>Push your branch to <strong>your fork</strong> on GitHub (<code>origin</code>): <br><code>git push origin add-my-name</code></li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Open a Pull Request (PR):</strong>
-                    <ul>
-                        <li>Go to your forked repository on GitHub.</li>
-                        <li>Click the <strong>Compare & pull request</strong> button (it usually appears in a yellow banner).</li>
-                        <li><strong>IMPORTANT:</strong> Check that the "base repository" is the Team Owner's original repo and the "head repository" is your fork.</li>
-                        <li>Add a title (e.g., "Add [Your Name] to team") and click <strong>Create pull request</strong>.</li>
-                    </ul>
-                </li>
-            </ol>
-
-            <h3>Part 3: For the "Repo Owner" (Merging)</h3>
-            <p>Your job is to review and approve your teammates' contributions.</p>
-            <ol>
-                <li>
-                    <strong>Review the Pull Request:</strong>
-                    <ul>
-                        <li>Go to your original repository on GitHub and click the <strong>Pull requests</strong> tab.</li>
-                        <li>Click on the new PR from your teammate.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Check the Changes:</strong>
-                    <ul>
-                        <li>Click the <strong>Files changed</strong> tab to see exactly what they added.</li>
-                        <li>If it all looks good, go back to the <strong>Conversation</strong> tab.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Merge the PR:</strong>
-                    <ul>
-                        <li>Click the green <strong>Merge pull request</strong> button.</li>
-                        <li>Click <strong>Confirm merge</strong>.</li>
-                        <li>Success! Your teammate's changes are now in the <code>main</code> branch. You can delete their branch after merging.</li>
-                    </ul>
-                </li>
-            </ol>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>&copy; ENGR1340-015-2025FALL </p>
-    </footer>
+        </ol>
+        <ol class="footer-card" tabindex="0">
+            <h3 class="gap-bottom" tabindex="0">Discover</h3>
+            <a href="community.html" tabindex="0">Community</a>
+            <li tabindex="0">Companies</li>
+            <a href="task.html" tabindex="0">Micro-Tasks</a>
+            <li tabindex="0">People</li>
+        </ol>
+        <ol class="footer-card" tabindex="0">
+            <h3 class="gap-bottom" tabindex="0">Resources</h3>
+            <li tabindex="0">Courses</li>
+            <li tabindex="0">Tools</li>
+            <li tabindex="0">Support</li>
+            <li tabindex="0">Solutions</li>
+            <li tabindex="0">Community Projects</li>
+        </ol>                        
+    </div>
+</footer>
 
 </body>
 </html>
