@@ -6,6 +6,7 @@ Team 13
 Tech Labs is a website designed to help Students learn, grow, and connect with others. Additionally, it allows companies to find potential employees that fit the skills they need.
 
 Some of its features include: 
+
     - Micro-Tasks: a way for students to get real experience and get paid a fee. For companies, it allows them to get simple tasks done and make more people familiar with work in the company.
 
     - Community: a way for students to interact with fellow students as well as companies. Companies get to reach out to any student they think would fit their company.
@@ -16,3 +17,5 @@ Some of its features include:
 
 
 Due to the project only needing 5 pages, only the Micro-Tasks and Community pages have been implemented so far.
+
+Youtube link: https://www.youtube.com/watch?v=aMWzOih5zKc
