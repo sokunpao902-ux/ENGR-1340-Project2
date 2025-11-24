@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+html, body {
+    min-width: max-content;
+    min-height: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ol {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+/* general classes */
+.unbold {
+    font-weight: normal;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.small-logo {
+    height: 25px;
+    width: 25px;
+}
+/* NAVBAR */
+.navbar {
+    min-width:100%;
+    display: flex;
+    padding: 15px 15px;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.nav-links a {
+    margin: 0 6px;
+    text-decoration: none;
+}
+
+.signin {
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #08F;
+    color: white;
+}
+
+.register {
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+/* log in section */
+
+.signup-section {
+    margin: 100px 0px;
+    justify-self: center;
+}
+
+.signup-section .title {
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.container {
+  justify-self: center;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  width: 500px;
+  color: black;
+  padding: 18px;
+}
+
+.container input[type=text], .container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* Add a background color when the inputs get focus */
+.container input[type=text]:focus, .container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.container input.last-enter {
+    margin-bottom: 10px;
+}
+
+
+/* Set a style for all buttons */
+.container button {
+  background: #08F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+.container button:hover {
+  opacity:1;
+}
+
+.blue-btn {
+    color: #08F;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.rem-link {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* Footer bar */
+
+.footer {
+    background-color: white;
+    height: 400px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-left: 50px;
+    gap: 200px;
+}
+
+
+.gap-bottom {
+    padding-bottom: 15px;
+}
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
