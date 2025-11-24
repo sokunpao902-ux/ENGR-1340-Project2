@@ -1,0 +1,11 @@
+1. github  repository url: https://github.com/sokunpao902-ux/ENGR-1340-Project2
+
+2. github pages url: 
+
+- Home page: https://sokunpao902-ux.github.io/ENGR-1340-Project2
+- Task page: https://sokunpao902-ux.github.io/ENGR-1340-Project2/task.html
+- Community page: https://sokunpao902-ux.github.io/ENGR-1340-Project2/community.html
+- Sign in page: https://sokunpao902-ux.github.io/ENGR-1340-Project2/signin.html
+- Register page: https://sokunpao902-ux.github.io/ENGR-1340-Project2/register.html
+- Profile page: https://sokunpao902-ux.github.io/ENGR-1340-Project2/profile.html
+
